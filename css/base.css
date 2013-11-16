@@ -51,7 +51,6 @@
 /* #Basic Styles
 ================================================== */
 	body {
-		background: #fff;
 		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
@@ -277,11 +276,14 @@ img {
 
 
 /* #Misc
-================================================== 
+================================================== */
 .main {
 	height: 650px;
-} */
+}
 
+.mainwrap {
+	min-height: 500px;
+}
 
 .hundo img {
 	width:100%;
